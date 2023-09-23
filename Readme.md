@@ -41,7 +41,7 @@ erDiagram
         string jobApplicationComments
     }
 
-    HOME || --o{ CREATE : createjobApplication
+    INDEX || --o{ CREATE : createjobApplication
     CREATE {
         string jobApplicationPosition
         string jobApplicationCompany
