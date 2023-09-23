@@ -1,8 +1,8 @@
 # Project 4 Backend
 
-- **Project Name:** Job Application
+- **Project Name:** Job Application Tracker
 - **Project By:** Adrian Garcia
-- [**Link To  Frontend GITHUB**]()
+- [**Link To  Frontend GITHUB**](https://github.com/adriancgarcia/project4_jobapptrackerfrontend)
 - [**LINK TO DEPLOYED WEBSITE**]()
 - **List of technologies used** Python, Django, Neon, Javascript
 - [**Link to Trello**](https://trello.com/b/4KPQUvN2/job-application-tracker)
