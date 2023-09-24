@@ -19,6 +19,7 @@ from django.urls import path, include
 from rest_framework import routers
 from jobs.views import JobViewSet
 
+# Router
 router = routers.DefaultRouter()
 router.register(r"jobs", JobViewSet)
 
