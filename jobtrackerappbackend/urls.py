@@ -20,7 +20,6 @@ from rest_framework import routers
 from jobs.views import JobViewSet
 
 router = routers.DefaultRouter()
-
 router.register(r"jobs", JobViewSet)
 
 print(router.urls)
