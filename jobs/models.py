@@ -7,7 +7,7 @@ class Job(models.Model):
     job_description = models.CharField(max_length=200)
     applied = models.BooleanField(blank=True, null=True)
     type_of_resume_sent = models.CharField(max_length=200)
-    date_applied = models.CharField()
+    date_applied = models.CharField(max_length=200)
     hiring_manager = models.CharField(max_length=200)
     hiring_manager_email = models.CharField(max_length=200)
     hiring_manager_phone = models.IntegerField(blank=True, null=True)
