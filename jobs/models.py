@@ -18,3 +18,5 @@ class Job(models.Model):
     application_origin = models.CharField(max_length=200)
     thankyou_sent = models.BooleanField(blank=True, null=True)
 
+    
+
