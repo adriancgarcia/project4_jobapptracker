@@ -1,4 +1,5 @@
 from django.db import models
+from phonenumber_field.modelfields import PhoneNumberField
 
 # models
 class Job(models.Model):
@@ -10,7 +11,8 @@ class Job(models.Model):
     date_applied = models.CharField(max_length=200)
     hiring_manager = models.CharField(max_length=200)
     hiring_manager_email = models.CharField(max_length=200)
-    hiring_manager_phone = models.IntegerField(blank=True, null=True)
+    # hiring_manager_phone = models.IntegerField(blank=True, null=True)
+    hiring_manager_phone = PhoneNumberField(blank=True, null=True)
     interview_status = models.CharField(max_length=200)
     application_origin = models.CharField(max_length=200)
     thankyou_sent = models.BooleanField(blank=True, null=True)
