@@ -46,8 +46,6 @@ INSTALLED_APPS = [
     'jobs.apps.JobsConfig',
     'rest_framework',
     'corsheaders',
-    # 'phonenumber_field',
-    # 'phonenumbers',
 ]
 
 MIDDLEWARE = [
